@@ -99,7 +99,21 @@ br.gov.rj.notas
 de.adidas.lager
 
 
+-- 02 -  Modificadores de Acceso: 
+Delimita el alcance de un objeto en JAVA Puede ser un objeto un metodo, 
+campo variable o un atributo. El modificador de acceso delimita el alcance o la
+visibilidad que tendrá dentro del proyecto.
 
+Cuando una clase no tiene modificador de acceso java le asigna el default.
+
+//default: Esta clase sera visible y tendran acceso las clases que unicamente esten dentro del mismo paquete. -Visible a nivel de paquete
+class Contador extends Funcionario{ //La clase Contador java le asigna el modificador de acceso Default
+
+//public: Este modificador es el mas permisivo: No importa donde este tu puedes entrar. --Visible global.Accesible desde cualquier parte.
+public class Administrador extends Funcionario{ //Esta clase su modificador es publico.
+
+//protected: Este da visibilidad a nivel del paquete y a nivel de herencia(a todas las clases hijas tendran acceso).
+//private: Este es el mas restrictivo de todos, No se puede acceder a el fuera de la clase. Solo visible dentro de la misma clase.
 
 
 

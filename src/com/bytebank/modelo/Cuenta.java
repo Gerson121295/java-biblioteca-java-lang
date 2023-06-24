@@ -1,4 +1,12 @@
 package com.bytebank.modelo;
+
+/**
+ * Estructura para la documentacion
+ * Cuenta va a crear nuevas instancias de CuentaCorriente.
+ * @version 1.0
+ * @author Gerson121295
+ */
+
 public abstract class Cuenta {
     //private double saldo; //cambio a private : encapsulamiento para que no se pueda obtener y modificar sin usar el metodo set o get
     protected double saldo; //Protected saldo es accesible desde las clases hijas.
@@ -13,9 +21,18 @@ public abstract class Cuenta {
     //static indica que esta variable no sera de la instancia si no de si no de la clase
     private static int total=0; //para contar cuantas cuentas hay creadas
 
+    /**
+     * Instancia una nueva cuenta sin parametros
+     *
+     */
     public Cuenta(){
-
     }
+
+    /**
+     *Instancia una cuenta usando agencia y numero.
+     * @param agencia
+     * @param numero
+     */
 
     public Cuenta (int agencia, int numero){
         this.agencia = agencia;
@@ -106,6 +123,12 @@ public abstract class Cuenta {
         this.saldo -= valor; //Si sacas dinero te resto el valor de tu cuenta, sino te devuelvo un exception.
     }
 */
+
+    /**
+     * Este metodo retira dinero de la cuenta y su ocurre un error devuelve una excepcion.
+     * @param valor
+     * @throws SaldoInsuficienteException
+     */
     //Nuevo Metodo saca implentando exception: Exception
     public void saca(double valor) throws SaldoInsuficienteException {
         if(this.saldo < valor) { //excepciones o validacion van al inicio del metodo.
@@ -113,7 +136,6 @@ public abstract class Cuenta {
         }
         this.saldo -= valor; //Si sacas dinero te resto el valor de tu cuenta, sino te devuelvo un exception.
     }
-
 
     //Metodo para obtener get
     public double getSaldo(){

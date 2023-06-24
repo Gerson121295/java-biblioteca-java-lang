@@ -9,5 +9,4 @@ public class CuentaEspecial extends Cuenta {
         super.saldo = 0.0;
     }
 
-
 }

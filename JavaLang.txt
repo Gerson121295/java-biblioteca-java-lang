@@ -117,6 +117,41 @@ public class Administrador extends Funcionario{ //Esta clase su modificador es p
 
 
 
+	--- Documentacion en Javadoc
+
+/**
+ * Estructura para la documentacion
+ * Cuenta va a crear nuevas instancias de CuentaCorriente.
+ * @version 1.0
+ * @author Gerson121295
+ */
+
+   /**
+     * Este metodo retira dinero de la cuenta y su ocurre un error devuelve una excepcion.
+     * @param valor
+     * @throws SaldoInsuficienteException
+     */
+
+Se documenta arriba de la clase, arriba del metodo o atributos.
+Esta documentacion se llama JavaDoc: documentacion dentro del codigo.
+
+En el simbolo de la Lupa escribir JavaDoc: para que habilite la vista javadoc.
+Java doc es hacer la documentacion publica para que las personas la vean el codigo.
+
+Generar javadoc del proyecto en eclipse:
+Proyect -> Generate -> javadoc  --> Elegir el proyecto
+
+Generar javadoc del proyecto en Intelij:
+Tools -> Generate JavaDoc --Elegir el proyecto
+
+
+
+
+
+
+
+
+
 
 
 

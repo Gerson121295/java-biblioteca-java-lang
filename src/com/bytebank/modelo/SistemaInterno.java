@@ -1,4 +1,4 @@
-package byteBankHeredado;
+package com.bytebank.modelo;
 
 public class SistemaInterno {
     private String clave = "CursosOnLine";

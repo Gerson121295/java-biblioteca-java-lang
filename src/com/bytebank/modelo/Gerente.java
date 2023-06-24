@@ -1,4 +1,4 @@
-package byteBankHeredado;
+package com.bytebank.modelo;
 
 
 //Gerente hereda los atributos de Funcionario por lo cual no es necesario

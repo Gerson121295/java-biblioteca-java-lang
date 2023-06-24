@@ -4,3 +4,106 @@
 ---- Biblioteca Java.lang  ----
 
 -- Java Programando con Object y String
+- Modelo: Se refiere la carpeta modelo a las clases que representan, cada entidad del 
+negocio. Son entidades que representan sistematicamente como seria esa parte del negocio
+por ejemplo un cliente, contador un funcionario.
+Una carpeta en java debe escribirse en minuscula.
+
+En java La linea 1 es la declaracion del paquete, la ubicacion de esta clase. 
+package test; esta dentro del paquete test.
+
+
+extencion del pais o compania.nombre de la empresa.paquete.nombre de la clase.
+com.bytebank.modelo.Administrador    com = compañia
+
+¿Qué es FQN?
+Es el nombre completo de la clase compuesto por el nombre del paquete y el nombre de la clase.
+el FQN (Full Qualified Name) es el nombre completo de la clase, que consta del 
+nombre del paquete y el nombre de la clase.
+FQN = Nombre del paquete. Nombre de clase simple
+
+Afirmaciones sobre Packages:
+
+B) Los Packages son directorios con un significado especial dentro del código fuente de Java
+C) La palabra reservada package debe ser la primera declaración en el código fuente de Java.
+D) Los Packages se utilizan para organizar y agrupar clases e interfaces.
+
+
+Pedro trabaja en la empresa Uberdist en el proyecto con el sobrenombre de udnotas. 
+Pedro también mencionó que la empresa tiene un sitio web con la dirección 
+uberdist.com.br.
+
+Pedro tiene dudas sobre la nomenclatura del package. 
+¿Qué nombre tendría más sentido y se considera una buena práctica?
+
+br.com.uberdist.udnotas
+ siempre siguiendo la regla: NOMBRE_DEL_SITE_AL_REVES.NOMBRE_DEL_PROYECTO
+
+Se debe tener en cuenta, la siguiente estructura como organiza Java:
+pais.tipo_de_organizacion.nombre_de_la_empresa.paquete_para_organizar
+
+
+-- import : permite traer clases de otros paquetes a nuestro archivo actual.
+
+paquete actual: package com.bytebank.test
+Arriba en la clase actual se debe importar la clase a usar:
+
+import com.bytebank.modelo.CuentaAhorros;
+import com.bytebank.modelo.*; //permite importar todas las clases que se encuentren en la clase modelo.
+
+clase actual: public class TestCuenta {  
+---Ya se puede utilizar la clase CuentaAhorros del paquete modelo en la clase 
+TestCuenta del paquete test.
+
+
+Estructura de una clase en java:
+Paquete de la clase
+Import //imports de otras clases
+la clase como tal.
+
+
+A) Solo puede tener una declaración de package por archivo
+B) La declaración import es opcional
+C) Es posible repetir la declaración import para importaciones de diferentes packages
+D) La definición de clase siempre debe ir por último (después de package e import)
+
+
+En el desarrollo de Java, organizamos nuestras clases en paquetes:
+
+-Cuando un proyecto usa paquetes, podemos usar import de otras clases para su uso.
+import facilita el uso de la clase porque no necesitamos el Full Qualified Name.
+
+-Por organización y por la convención adoptada, debemos seguir el dominio de la 
+empresa. Es decir, si la empresa tiene el dominio alura.com.br, los paquetes deben 
+ser subpaquetes de br.com.alura.
+
+-El modificador default de Java restringe el acceso a nivel de paquete. Por lo tanto, 
+si no se define ningún modificador, ya sea en la clase, método o atributo, solo las 
+clases del mismo paquete pueden acceder a esta información.
+De forma predeterminada, sólo las clases del mismo paquete pueden acceder a esta información.
+
+
+¿Qué aprendimos?
+Los packages sirven para organizar nuestro código.
+Los packages son parte del FQN (Full Qualified Name) de la clase.
+El nombre completo de la clase (FQN) consta de: PACKAGE.NOMBRE_SIMPLE_DE_LA_CLASE
+La definición de package debe ser la primera declaración en el código fuente
+Para facilitar el uso de clases de otros packages, podemos importarlas
+Los import son justo después de la declaración del package
+
+La nomenclatura padrón es usar el nombre de dominio en la web al revés con el 
+nombre del proyecto, por ejemplo:
+br.com.caelum.geradornotas
+br.com.alura.gnarus
+br.gov.rj.notas
+de.adidas.lager
+
+
+
+
+
+
+
+
+
+

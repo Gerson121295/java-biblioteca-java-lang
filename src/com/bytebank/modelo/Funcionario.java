@@ -1,4 +1,4 @@
-package byteBankHeredado;
+package com.bytebank.modelo;
 
 /* La clase al ser abstracta no puede ser instanciada como tal
 * Al ser abstracta es una representacion conceptual, pero no puede ser una

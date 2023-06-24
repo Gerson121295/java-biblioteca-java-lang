@@ -7,6 +7,26 @@
     <list default="true" id="fa504994-d78f-4192-97e1-8670b79c9298" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaLang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLang.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Administrador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Autenticable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Autenticable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/AutenticacionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/AutenticacionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Contador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Contador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/ControlBonificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/ControlBonificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/CuentaAhorros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/CuentaCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/SaldoInsuficienteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/SistemaInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/modelo/SistemaInterno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestControlBonificacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestControlBonificacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestCuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestCuentaExceptionSaldo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestCuentaExceptionSaldo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestFuncionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestFuncionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestGerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestGerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestReferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestReferencias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/byteBankHeredado/TestSistemaInterno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytebank/test/TestSistemaInterno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +35,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2ResELHloqFCK1GVYhdmhN5AzKu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,5 +63,16 @@
       <updated>1687621770774</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package byteBankHeredado;
+package com.bytebank.modelo;
 public abstract class Cuenta {
     //private double saldo; //cambio a private : encapsulamiento para que no se pueda obtener y modificar sin usar el metodo set o get
     protected double saldo; //Protected saldo es accesible desde las clases hijas.

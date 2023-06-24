@@ -1,4 +1,11 @@
-package byteBankHeredado;
+package com.bytebank.test;
+
+import com.bytebank.modelo.CuentaAhorros;
+import com.bytebank.modelo.CuentaCorriente;
+import com.bytebank.modelo.SaldoInsuficienteException;
+
+import com.bytebank.modelo.*; //permite importar todas las clases
+// que se encuentren en la clase modelo.
 
 public class TestCuenta {
     public static void main(String[] args) {

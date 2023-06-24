@@ -144,8 +144,57 @@ Proyect -> Generate -> javadoc  --> Elegir el proyecto
 Generar javadoc del proyecto en Intelij:
 Tools -> Generate JavaDoc --Elegir el proyecto
 
+Sobre Javadoc:
+A) Debe tener instalado el JDK para poder generar la documentación de javadoc.
+B) El javadoc es documentación escrita por el desarrollador para desarrolladores.
+D) Hay etiquetas especiales para marcar el autor o la versión de la clase.
+
+lista completa:
+@author (usado en la clase o interfaz)
+@version (usado en la clase o interfaz)
+@param (usado en el método y constructor)
+@return (usado solo en el método)
+@exception o @throws (en el método o constructor)
+@see
+@since
+@serial
+@deprecated
+Es importante que las etiquetas javadoc existan solo para estandarizar algunos 
+datos fundamentales de su código fuente, como el autor y la versión.
 
 
+-- 03 - Archivo JAR  --- 
+
+Genrerar un archivo .jar
+
+clic derecho en el proyecto --> Clic en export --> desplegar la carpeta JAVA
+luego seleccionar el archivo: JARFile luego clic en Next --> Seleccionar los 
+recursos a exportar luego clic en browser(para elegir donde lo
+va exportar, hay que darle un nombre al archivo luego clic en save,
+y clic en finish y genera el archivo.jar
+
+
+-- pasos para crear el archivo .jar de un proyecto usando Intelij
+
+clic en file
+clic en Project Structure
+clic en Artifacts -> clic en el signo "+" luego
+clien JAR -> clic en from modules with dependencies
+luego en Main Class: "seleccionar el main del proyecto"
+clic en OK
+luego clic en Apply luego en OK.
+
+Luego clic en la pestaña Build -->clic en build Artifacts
+seleccionar la clase creada y clic en build.
+
+Ejecutar el archivo .jar
+
+Abrir CMD y moverse a la ruta del proyecto en out --> artifacts
+y ejecutar el archivo creado.
+
+C:\Users\Hp01\OneDrive\Escritorio\Cursos\Java-Random\JAVASE\HelloWord\out\artifacts
+
+en cmd ejecutar:  java -jar HolaMundo.jar
 
 
 

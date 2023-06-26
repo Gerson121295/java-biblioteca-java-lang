@@ -323,6 +323,35 @@ String.
 - Vimos varios métodos de la clase String como trim, charAt, contains, isEmpty, 
   length, indexOf, replace
 
+     System.out.println();//Es publico y statico
+        //Si no necesito instanciarlo es estatico
+        //Si necesito instanciarlo no es estatico
+
+	
+	La clase Object es la clase raíz de Java, es correcto afirmar:
+
+- No es necesario que dejar explícito en la declaración de una clase que debe 
+heredar de Object, porque esto es automático.
+no hay necesidad de heredar de Object explícitamente, el compilador inserta 
+automáticamente la declaración.
+
+-Cualquier objeto puede ser referenciado por el tipo de Object, ya que es el principal.
+el tipo de objeto es la forma más genérica de hacer referencia a un objeto.
+
+
+¿Cuál es el propósito del método toString() de la clase Object?
+
+-El método toString() existe para devolver información sobre el estado del objeto.
+el método toString debería devolver información sobre el estado del objeto. 
+Es útil para depurar en desarrollo.
+
+-El método toString() existe para ser reemplazado.
+es una buena práctica sobrescribir el método para darle un significado mayor que el resultado estándar de ese método.
+
+
+
+
+
 
 
 

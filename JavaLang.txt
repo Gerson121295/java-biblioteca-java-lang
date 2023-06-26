@@ -293,8 +293,35 @@ extensión .jar
 cualquier biblioteca o proyecto usará JAR(s) para distribuir el código.
 
 
+4 - El paquete java lang.
 
+Cuando hablamos de excepciones hemos visto varias clases como Exception, 
+RuntimeException, NullPointerException o ArithmeticException.
 
+Todas estas clases provienen del paquete java.lang, por lo que no 
+fue necesario importarlas.
+
+Clase String:
+
+-Un objeto de tipo String no se puede modificar.
+ los objetos de la clase String son inmutables. Esto significa que, una vez 
+creado, no se puede cambiar, por lo que cualquier cambio crea un nuevo objeto 
+String.
+
+-Es una clase definida en java.lang y por lo tanto no es necesario importar.
+ porque la clase String es en realidad del paquete java.lang. El FQN es java.lang.String
+
+- El package java.lang es el único paquete que no necesita ser importado
+- Tiene clases fundamentales que cualquier aplicación necesita, como la clase 
+  String y System
+- Los objetos de la clase String son inmutables y usamos una sintaxis literal 
+  para crear (objeto literal)
+- Cualquier método para cambiar la clase String devuelve un nuevo String que 
+  representa el cambio
+- La clase String es una CharSequence
+- Si necesitamos concatenar muchos String debemos usar la clase StringBuilder
+- Vimos varios métodos de la clase String como trim, charAt, contains, isEmpty, 
+  length, indexOf, replace
 
 
 

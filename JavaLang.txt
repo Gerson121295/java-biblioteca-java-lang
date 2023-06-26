@@ -194,7 +194,11 @@ clic en file
 clic en Project Structure
 clic en Artifacts -> clic en el signo "+" luego
 clien JAR -> clic en from modules with dependencies
-luego en Main Class: "seleccionar el main del proyecto"
+luego seleccionar el proyecto.
+
+Nota: no seleccionar -  Main Class: "seleccionar el main del proyecto"
+	El metodo main es la clase que inicializa el proyecto, por lo que podemos
+	seleccionarla cuando queramos generar un archivo.jar ejecutable.
 clic en OK
 luego clic en Apply luego en OK.
 
@@ -240,13 +244,37 @@ en cmd ejecutar:  java -jar HolaMundo.jar
 
 --------------------------------------------------------
 
--- Jar Ejecutables
+-- Jar Ejecutables ---------
+
+-- pasos para crear el archivo .jar de un proyecto usando Intelij
+
+clic en file
+clic en Project Structure
+clic en Artifacts -> clic en el signo "+" luego
+clien JAR -> clic en from modules with dependencies
+luego seleccionar el proyecto.
+-- Para crear un archivo.jar ejecutable agregamos el siguiente paso
+Le damos un nombre a nuestro ejecutable con terminacion: ejecutable
+Nota: Seleccionar el Main Class: "seleccionar el main del proyecto"
+	El metodo main es la clase que inicializa el proyecto, por lo que podemos
+	seleccionarla cuando queramos generar un archivo.jar ejecutable.
+clic en OK
+luego clic en Apply luego en OK.
+
+Luego clic en la pestaña Build -->clic en build Artifacts
+seleccionar la clase creada y clic en build.
 
 
+Luego ir a CMD y ubicarnos en el path del proyecto
+Abrir CMD y moverse a la ruta del proyecto en out --> artifacts
+y ejecutar el archivo creado.
 
+Alura\JavaBackend\BibliotecaJavaLang\out\artifacts\BibliotecaJavaLang_jar
+en cmd ejecutar:  java -jar java -jar BibliotecaJavaLang.jar
 
-
-
+Nota: Lo mismo pasos para eclipse al crear un archivo .jar ejecutable
+solo debemos darle un nombre y elegir el main del proyecto.
+----------------------------------------------------------------------
 
 
 

@@ -165,16 +165,58 @@ datos fundamentales de su código fuente, como el autor y la versión.
 
 -- 03 - Archivo JAR  --- 
 
-Genrerar un archivo .jar
+Archivo .jar es un archivo comprimido,(igual que el archivo .zip) tienen el codigo 
+compilado la funcionalidad en si de nuestro codigo.
 
-clic derecho en el proyecto --> Clic en export --> desplegar la carpeta JAVA
+
+--- 	Genrerar un archivo .jar usando Eclipse  ---
+
+clic derecho en el proyecto --> Clic en export --> desplegar la carpeta: JAVA
 luego seleccionar el archivo: JARFile luego clic en Next --> Seleccionar los 
-recursos a exportar luego clic en browser(para elegir donde lo
-va exportar, hay que darle un nombre al archivo luego clic en save,
+recursos a exportar,(no exportar documentacion) luego clic en browser(para elegir 
+donde lo va exportar, hay que darle un nombre al archivo luego clic en save,
 y clic en finish y genera el archivo.jar
+
+copiar el archivo.jar generado en una carpeta llamada lib en eclipse del otro
+proyecto el cual queremos utilizar la funcionalidad. (esta carpeta se crea, 
+por convencion se usa la palabra lib para almacenar las librerias).
+En el proyecto en el cual vamos a utilizar la funcionalidad de otro proyecto
+buscamos la carpeta lib el archivo.jar Luego damos clic derecho en el archivo.jar 
+y dar clic en build Path -> clic Add to Build Path.
+y con esto ya podemos hacer uso de las clases y funcionarlidades que contriene el 
+proyecto, en nuestro proyecto nuevo.
+-------------------------------------------------------------------------------------
 
 
 -- pasos para crear el archivo .jar de un proyecto usando Intelij
+
+clic en file
+clic en Project Structure
+clic en Artifacts -> clic en el signo "+" luego
+clien JAR -> clic en from modules with dependencies
+luego en Main Class: "seleccionar el main del proyecto"
+clic en OK
+luego clic en Apply luego en OK.
+
+Luego clic en la pestaña Build -->clic en build Artifacts
+seleccionar la clase creada y clic en build.
+
+El archivo generado se encontrará: en out/artifacts>BibliotecajavaLang.jar
+Este archivo se copia. para pegarlo en el otro proyecto donde queremos utilizar las clases.
+En el otro proyecto se debe crear una carpeta llamada lib para guardar nuestro archivo .jar
+luego damos clic derecho sobre nuestro archivo.jar y damos clic en add_as_library y le damos un 
+nombre, elegimos el nivel: Project Library, elegimos el modulo al cual se va a agregar que es
+nuestro proyecto en el que se esta trabajando luego clic en Ok y listo.
+ya podemos instanciar objetos, utilizarla funcionalidad del proyecto anterior en nuestro proyecto.
+
+Un conjunto de clases exportadas en un JAR se le conocen como librerias.
+Este archivo jar se almacena en otro proyecto en otra carpeta llamada lib
+para despues ser usadas.
+
+
+
+-----------------Fuente de un Post-----------------------------------------
+pasos para crear el archivo .jar de un proyecto
 
 clic en file
 clic en Project Structure
@@ -195,6 +237,12 @@ y ejecutar el archivo creado.
 C:\Users\Hp01\OneDrive\Escritorio\Cursos\Java-Random\JAVASE\HelloWord\out\artifacts
 
 en cmd ejecutar:  java -jar HolaMundo.jar
+
+--------------------------------------------------------
+
+-- Jar Ejecutables
+
+
 
 
 

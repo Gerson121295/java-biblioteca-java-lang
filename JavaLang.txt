@@ -277,6 +277,46 @@ solo debemos darle un nombre y elegir el main del proyecto.
 ----------------------------------------------------------------------
 
 
+-- Datos sobre distribucion de codigo
+
+En cuanto a la generación de documentación, podemos usar Javadoc, para la 
+distribución podemos empaquetar la aplicación en un jar. Comencemos con Javadoc.
+
+El Javadoc solo estará disponible para las instalaciones de JDK’s y no para las 
+de JRE’s. Asegúrate de estar usando un JDK.
+
+---  Datos sobre JAR:
+-Es un archivo comprimido ZIP. no es más que un archivo ZIP, pero con la 
+extensión .jar
+
+-Es el formato estándar en el mundo de Java para distribuir código compilado.
+cualquier biblioteca o proyecto usará JAR(s) para distribuir el código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
